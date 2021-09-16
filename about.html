@@ -94,6 +94,29 @@
     </header>
     <!-- End Header -->
 
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/info-augmetrix/15min",
+          text: "Want to join our team? Let's talk :)",
+          color: "#68a4c4",
+          textColor: "#ffffff",
+          branding: true,
+        });
+      };
+    </script>
+    <!-- Calendly badge widget end -->
+
     <main id="main">
       <!-- ======= About Us Section ======= -->
       <section class="breadcrumbs">
@@ -435,11 +458,11 @@
     </footer>
     <!-- End Footer -->
 
-    <a
+    <!-- <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    ></a> -->
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
