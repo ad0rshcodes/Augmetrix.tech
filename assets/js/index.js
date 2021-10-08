@@ -31,6 +31,14 @@ const links = [
     name: "Contact",
     html: "contact.html",
   },
+  {
+    name: "Sunday Shots",
+    html: "sunday-shots.html",
+  },
+  {
+    name: "Our Discord Community",
+    html: "https://discord.gg/F2ftbbS8GD",
+  },
 ];
 document.getElementById("navbar").innerHTML =
   `<ul>` +
