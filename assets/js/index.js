@@ -24,6 +24,10 @@ const links = [
     html: "team.html",
   },
   {
+    name: "Sunday Shots",
+    html: "sunday-shots.html",
+  },
+  {
     name: "Blog",
     html: "blog.html",
   },
@@ -31,12 +35,14 @@ const links = [
     name: "Contact",
     html: "contact.html",
   },
+
   {
-    name: "Sunday Shots",
-    html: "sunday-shots.html",
+    name: "Internship opportunity",
+    html: "https://forms.gle/nh1jU1UtoLQE8yYP6",
   },
+
   {
-    name: "Our Discord Community",
+    name: "Discord Community",
     html: "https://discord.gg/F2ftbbS8GD",
   },
 ];
@@ -45,7 +51,7 @@ document.getElementById("navbar").innerHTML =
   links.map(
     (link) =>
       `
-    <li><a href="${link.html}" ${
+    <li><a href="${link.html} " ${
         location.pathname.includes(link.html) && 'class="active"'
       }>${link.name}</a></li>
   `
