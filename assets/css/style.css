@@ -744,7 +744,8 @@ section {
 }
 
 .embed {
-  height: 50vh;
+  height: 45vh;
+  width: 64vw;
 }
 
 @-webkit-keyframes pulsate-btn {
