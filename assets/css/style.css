@@ -106,7 +106,7 @@ h6,
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -216,7 +216,7 @@ h6,
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -338,7 +338,7 @@ h6,
       rgba(30, 67, 86, 0.8),
       rgba(30, 67, 86, 0.6)
     ),
-    url("../img/hero-bg.jpg") center top no-repeat;
+    url("../img/home.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -493,7 +493,7 @@ h6,
       rgba(30, 67, 86, 0.8),
       rgba(30, 67, 86, 0.6)
     ),
-    url("../img/hero-bg.jpg") center top no-repeat;
+    url("../img/home.jpg") center top no-repeat;
 }
 
 #hero-no-slider h2 {
