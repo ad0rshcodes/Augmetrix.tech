@@ -32,11 +32,6 @@ const links = [
     html: "blog.html",
   },
   {
-    name: "Contact",
-    html: "contact.html",
-  },
-
-  {
     name: "Internship opportunity",
     html: "https://forms.gle/nh1jU1UtoLQE8yYP6",
   },
@@ -44,6 +39,10 @@ const links = [
   {
     name: "Discord Community",
     html: "https://discord.gg/F2ftbbS8GD",
+  },
+  {
+    name: "Contact",
+    html: "contact.html",
   },
 ];
 document.getElementById("navbar").innerHTML =
